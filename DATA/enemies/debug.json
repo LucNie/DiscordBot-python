@@ -1,0 +1,12 @@
+{
+    "name":"debug",
+    "description":"Debugging encounter",
+    "HP":100,
+    "MS":50,
+    "cards": [
+        "debug","debug","debug","debug"
+    ],
+    "loot": {
+        "enkephalin" : {"max" : 1, "min" : 1, "chance" : 1}
+    }
+}

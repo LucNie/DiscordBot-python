@@ -1,0 +1,28 @@
+{
+    "name": "test id",
+    "description": "test id description",
+    "type": "standard",
+    "price": 10,
+    "maxHP": 5,
+    "maxMP": 5,
+    "resistances":{
+        "damage": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "elemental": {
+            "white": 1,
+            "black": 1,
+            "red": 1,
+            "pale": 2
+        },
+        "stagge":{
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        }
+    },
+    "passif": [],
+    "passifBattle": []
+}

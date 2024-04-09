@@ -1,0 +1,40 @@
+{
+    "id": "327092234711465984",
+    "image": {
+        "default": "https://i.ibb.co/B3bV7zm/a02a0e2f-b3c4-41be-962c-a1c011b36c3e-transformed.webp"
+    },
+    "name": "Galaxial",
+    "Faction": "Fondateur",
+    "MS": 25,
+    "HP": 50,
+    "Identity": "debug",
+    "Stagger": 25,
+    "Staggered": false,
+    "BattlePassif": {},
+    "status": {
+        "dev" : {
+            "name" : "Developer",
+            "count": 1,
+            "turn": -1
+        },
+        "strength": {
+            "name": "strength",
+            "count": 1,
+            "turn": 1
+        }
+    },
+    "inventory": {
+        "enkephalin": 10
+    },
+    "cards": [
+        "debug",
+        "debug",
+        "debug",
+        "debug"
+    ],
+    "EGOCards": [],
+    "energy": 5,
+    "EGO": 0,
+    "emotionLevel": 0,
+    "emotion": 0
+}
