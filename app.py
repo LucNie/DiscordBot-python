@@ -8,12 +8,11 @@ from dotenv import load_dotenv
 load_dotenv() # load all the variables from the env file
 bot = discord.Bot()
 
-
-
 @bot.event
 async def on_ready():
     init()
     print(f"Logged in as {bot.user.name} ({bot.user.id})")
+    await bot.change_presence(status=discord.Status.online, activity=discord.Activity(type=discord.ActivityType.listening, name=os.getenv("STATUS")))
 
 @bot.slash_command(name = "hello", description = "Say hello to the bot")
 async def hello(ctx):

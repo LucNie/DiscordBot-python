@@ -1,7 +1,7 @@
 # DiscordBot python
  
 ## Description
-python 3.12.x
+python 3.10.x
 ## Installation
 ```
 python -m venv venv
